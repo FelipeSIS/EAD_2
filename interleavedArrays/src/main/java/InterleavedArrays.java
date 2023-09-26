@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class InterleavedArrays {
     public static void main(String[] args) {
         int sizeVetor;
@@ -8,7 +10,7 @@ public class InterleavedArrays {
         int[] A = new int[sizeVetor];
         int[] B = new int[sizeVetor];
 
-        InterleaveArray valorFinal = new InterleaveArray();
+        InterleavedArrays valorFinal = new InterleavedArrays();
 
 
         for(int i=0; i < sizeVetor; i++){
